@@ -1,8 +1,8 @@
 {
   "name": "chary-tree-view",
   "main": "./lib/chary-tree-view",
-  "version": "0.1.0",
-  "description": "Open a file by double-click",
+  "version": "0.1.1",
+  "description": "Open files by only double-clicking",
   "keywords": [
     "tree-view",
     "ui"
