@@ -1,0 +1,15 @@
+{
+  "name": "chary-tree-view",
+  "main": "./lib/chary-tree-view",
+  "version": "0.0.0",
+  "description": "Open a file by double-click",
+  "keywords": [
+    "tree-view",
+    "ui"
+  ],
+  "repository": "https://github.com/h2so5/atom-chary-tree-view",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
