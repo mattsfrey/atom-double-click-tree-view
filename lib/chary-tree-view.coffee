@@ -15,6 +15,7 @@ class CharyTreeView
 
       @treeView.on 'dblclick', '.entry', (e) =>
         @treeView.openSelectedEntry.call(@treeView)
+        false
 
   deactivate: ->
     @treeView.entryClicked = @treeView.originalEntryClicked
