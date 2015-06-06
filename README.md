@@ -1,3 +1,3 @@
 # chary-tree-view package
 
-Open files by only double-clicking.
+Tree-view responds to only double-click to avoid opening a large file accidentally.
