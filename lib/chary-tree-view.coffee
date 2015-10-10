@@ -7,11 +7,7 @@ class CharyTreeView
       @treeView.originalEntryClicked = @treeView.entryClicked
 
       @treeView.entryClicked = (e) ->
-        entry = e.currentTarget
-        if entry.constructor.name == 'tree-view-file'
-          false
-        else
-          @originalEntryClicked(e)
+        false
 
       @treeView.on 'dblclick', '.entry', (e) =>
         @treeView.openSelectedEntry.call(@treeView)
