@@ -1,6 +1,6 @@
 'use strict'
 
-class CharyTreeView
+class DoubleClickTreeView
   activate: ->
     atom.packages.activatePackage('tree-view').then (treeViewPkg) =>
       @treeView = treeViewPkg.mainModule.createView()
@@ -21,4 +21,4 @@ class CharyTreeView
   entryDoubleClicked: (e) ->
     @originalEntryClicked(e)
 
-module.exports = new CharyTreeView()
+module.exports = new DoubleClickTreeView()
