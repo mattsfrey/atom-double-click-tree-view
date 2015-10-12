@@ -1,7 +1,7 @@
 {
   "name": "double-click-tree-view",
   "main": "./lib/double-click-tree-view",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tree-view responds only to double clicks for all operations",
   "keywords": [
     "tree-view",
